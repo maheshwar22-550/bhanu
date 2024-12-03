@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Paytm</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <button onclick="navigateTo('home')">Home</button>
+        <button onclick="navigateTo('offers')">Offers</button>
+        <button onclick="navigateTo('wallet')">Wallet</button>
+        <button onclick="navigateTo('bank')">Bank</button>
+        <button onclick="navigateTo('recharge')">Recharge</button>
+        <button onclick="navigateTo('orders')">My Orders</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Welcome to Paytm</h2>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <div>
+            <img src="https://via.placeholder.com/100" alt="Recharge Icon">
+            <h3>Recharge</h3>
+            <p>Quick recharge for mobile, DTH, and more.</p>
+            <button onclick="performAction('recharge')">Start Recharge</button>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/100" alt="Pay Bills Icon">
+            <h3>Pay Bills</h3>
+            <p>Pay your bills effortlessly and on time.</p>
+            <button onclick="performAction('payBills')">Pay Bills</button>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/100" alt="Shop Icon">
+            <h3>Shop</h3>
+            <p>Shop for groceries, electronics, and more.</p>
+            <button onclick="performAction('shop')">Start Shopping</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 Paytm. All Rights Reserved.</p>
+    </div>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
